@@ -28,7 +28,7 @@ function Dark() {
 
     return (
         <div className='btn btn-ghost btn-circle' onClick={toggleDarkMode}>
-            {(dark) ? <SunFill className='h-[50%] w-[50%] text-white' /> : <MoonFill className='h-[50%] w-[50%] text-white' />}
+            {(dark) ? <SunFill className='h-[50%] w-[50%]' /> : <MoonFill className='h-[50%] w-[50%] text-black' />}
         </div>
     )
 }
