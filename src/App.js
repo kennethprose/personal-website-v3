@@ -9,7 +9,7 @@ import Contact from './components/contact';
 
 function App() {
   return (
-    <div className='w-screen bg-background dark:bg-dark_background'>
+    <div className='bg-background dark:bg-dark_background'>
       <div className="min-h-screen max-w-screen-lg mx-auto">
         <BrowserRouter>
           <br />

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import eagle_pic from '../img/eagle.jpg';
 import throne_pic from '../img/throne.jpg';
 var ReactRotatingText = require('react-rotating-text');
