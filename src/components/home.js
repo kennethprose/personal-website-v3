@@ -54,6 +54,7 @@ function Home() {
 
                         . I am excited and prepared to enter the industry and get hands-on experience in programming, information security, and networking.
                     </h4>
+                    <br />
                 </div>
             </div>
             <img id="eagle_img" className="absolute border-2 border-black rounded-2xl h-[200px] w-auto opacity-0 transition-opacity duration-500 pointer-events-none" src={eagle_pic} alt="Eagle Scout Uniform" style={{top: xEagle, left: yEagle}} />

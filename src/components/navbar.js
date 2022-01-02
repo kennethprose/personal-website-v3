@@ -4,7 +4,7 @@ import Dark from './dark';
 
 function Navbar() {
     return (  
-        <div class="navbar mx-3 mb-2 rounded-box bg-foreground dark:bg-dark_foreground drop-shadow-lg">
+        <div class="navbar mx-3 mb-2 rounded-box bg-foreground dark:bg-dark_foreground md:drop-shadow-lg">
             <div class="flex-initial md:flex-1 px-2">
                 <div class="dropdown md:hidden">
                     <div tabindex="0" class="btn btn-ghost rounded-btn text-black dark:text-white">
@@ -12,7 +12,7 @@ function Navbar() {
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </div> 
-                    <ul tabindex="0" class="p-2 shadow menu dropdown-content bg-navbar dark:bg-dark_navbar rounded-box w-52">
+                    <ul tabindex="0" class="p-2 shadow menu dropdown-content text-primary dark:text-dark_primary bg-foreground dark:bg-dark_foreground rounded-box w-52">
                         <Link to="/">
                             <li><a href='/#'>Home</a></li> 
                         </Link>
