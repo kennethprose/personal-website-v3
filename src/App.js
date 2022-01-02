@@ -4,7 +4,7 @@ import './index.css';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Projects from './components/projects';
-import Experience from './components/experience';
+import Resume from './components/resume';
 import Contact from './components/contact';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>

@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "name": "CSE 416: Software Engineering",
+      "description": "Introduces the basic concepts and modern tools and techniques of software engineering. Emphasizes the development of reliable and maintainable software via system requirements and specifications, software design methodologies including object-oriented design, implementation, integration, and testing; software project management; life-cycle documentation; software maintenance; and consideration of human factor issues.",
+      "link": "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE416"
+    },
+    {
+      "name": "CSE 373: Analysis of Algorithms",
+      "description": "Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms.",
+      "link": "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE373"
+    },
+    {
+      "name": "CSE 331: Computer Security Fundamentals",
+      "description": "Introduces the basic concepts and terminology of computer security. Covers basic security topics such as cryptography, operating systems security, network security, and language-based security.",
+      "link": "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE331"
+    },
+    {
+      "name": "CSE 310: Computer Networks",
+      "description": "Overview of computer networks and the Internet. Concept of end systems, access networks, clients and servers. Connection-oriented and connectionless services. Circuit switching and packet switching. Description of Internet protocol layers, including application layer, transport layer, network layer and link layer. Architecture of the current Internet and the World-Wide Web. TCP/IP protocol stack. Internet routing and addressing. Local area network protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking.",
+      "link": "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE310"
+    },
+    {
+      "name": "CSE 305: Principles of Database Systems",
+      "description": "The design of database management systems to obtain consistency, integrity, and availability of data. Conceptual models and schemas of data: relational, hierarchical, and network. Students undertake a semester project that includes the design and implementation of a database system.",
+      "link": "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE305"
+    },
+    {
+      "name": "CSE 214: Data Structures",
+      "description": "An extension of programming methodology to data storage and manipulation on complex data sets. Topics include: programming and applications of data structures; stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons.",
+      "link": "https://www.cs.stonybrook.edu/students/Undergraduate-Studies/courses/CSE214"
+    }
+  ]
+}

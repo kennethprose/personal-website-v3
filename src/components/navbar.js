@@ -19,8 +19,8 @@ function Navbar() {
                         <Link to="/projects">
                             <li><a href='/#'>Projects</a></li> 
                         </Link>
-                        <Link to="/experience">
-                            <li><a href='/#'>Experience</a></li> 
+                        <Link to="/resume">
+                            <li><a href='/#'>Resume</a></li> 
                         </Link>
                         <Link to="/contact">
                             <li><a href='/#'>Contact</a></li> 
@@ -36,8 +36,8 @@ function Navbar() {
                 <Link to="/projects">
                     <div className='btn btn-ghost text-black dark:text-white'>Projects</div>
                 </Link>
-                <Link to="/experience">
-                    <div className='btn btn-ghost text-black dark:text-white'>Experience</div>
+                <Link to="/resume">
+                    <div className='btn btn-ghost text-black dark:text-white'>Resume</div>
                 </Link>
                 <Link to="/contact">
                     <div className='btn btn-ghost text-black dark:text-white'>Contact</div>
