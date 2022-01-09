@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 import { MoonFill, SunFill } from 'react-bootstrap-icons'
 
 function Dark() {
-    const [dark, setdark] = useState(true)
+    const [dark, setdark] = useState(false)
 
     useEffect(() => {
-        if (localStorage.theme === "dark" || (!('theme' in localStorage))) {
-            document.body.className="dark"
-        } else {
+        if (localStorage.theme === "light" || (!('theme' in localStorage))) {
             document.body.className=""
-            setdark(false)
+        } else {
+            document.body.className="dark"
+            setdark(true)
         }
     }, [])
 

@@ -72,7 +72,7 @@ function Resume() {
                         return (
                             <div className='flex justify-between gap-4 w-5/6 mx-auto my-1'>
                                 <div className='grow text-center text-lg text-secondary dark:text-dark_secondary'>{e.name}</div>
-                                <progress className='progress w-3/6 h-full my-auto' value={e.percent} max="100" />
+                                <progress className='progress w-3/6 h-full my-auto' value={e.percent} max="100"></progress>
                             </div>
                         )
                     })}
@@ -85,7 +85,6 @@ function Resume() {
                         </a>
                 </div>
             </div>
-            <br />
         </div>
     )
 }

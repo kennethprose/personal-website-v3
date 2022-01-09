@@ -8,7 +8,7 @@ function Projects() {
             <div class="divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800"></div>
             {projectData.projects.map((e) => {
                 return (
-                    <div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-xl'>
+                    <div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg'>
                         <div className='card-body'>
                             <h2 className='card-title text-primary dark:text-dark_primary'>{e.name}</h2>
                             <p className='text-secondary dark:text-dark_secondary'>{e.description}</p>

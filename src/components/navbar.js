@@ -4,7 +4,7 @@ import Dark from './dark';
 
 function Navbar() {
     return (  
-        <div class="navbar mx-3 mb-2 rounded-box bg-foreground dark:bg-dark_foreground md:drop-shadow-lg">
+        <div class="navbar mx-3 mb-2 rounded-box bg-foreground dark:bg-dark_foreground md:drop-shadow-md">
             <div class="flex-initial md:flex-1 px-2">
                 <div class="dropdown md:hidden">
                     <div tabindex="0" class="btn btn-ghost rounded-btn text-black dark:text-white">
@@ -22,9 +22,6 @@ function Navbar() {
                         <Link to="/resume">
                             <li><a href='/#'>Resume</a></li> 
                         </Link>
-                        <Link to="/contact">
-                            <li><a href='/#'>Contact</a></li> 
-                        </Link>
                     </ul>
                 </div>
                 <a class="text-lg font-bold text-black dark:text-white"  href='/#'>Kenneth Rose</a>
@@ -38,9 +35,6 @@ function Navbar() {
                 </Link>
                 <Link to="/resume">
                     <div className='btn btn-ghost text-black dark:text-white'>Resume</div>
-                </Link>
-                <Link to="/contact">
-                    <div className='btn btn-ghost text-black dark:text-white'>Contact</div>
                 </Link>
             </div>
             <div class="flex justify-end flex-1 px-2">
