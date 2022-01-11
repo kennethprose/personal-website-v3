@@ -34,12 +34,12 @@ function Home() {
         <div>
             <div className='mx-auto min-h-full w-11/12 md:w-9/12'>
                 <div className='w-full'>
-                    <h1 className='mt-14 text-4xl font-bold text-primary dark:text-dark_primary'>Hello!</h1>
+                    <h1 className='mt-14 text-5xl text-primary dark:text-dark_primary home'>Hello!</h1>
                     <h3 className="my-5 text-xl text-secondary dark:text-dark_secondary h-8">
                         You must be here to learn about my <ReactRotatingText items={['education.', 'past projects.', 'work experience.', 'contact info.']} pause={1000} />
                     </h3>
                     <br />
-                    <h2 className="my-5 text-2xl font-bold text-primary dark:text-dark_primary">First, let me tell you a little about myself...</h2>
+                    <h2 className="my-5 text-3xl text-primary dark:text-dark_primary home">First, let me tell you a little about myself...</h2>
                     <h4 className="text-xl text-secondary dark:text-dark_secondary leading-[140%]">
                         I am a driven and solution-oriented Computer Scientist and Mathematician with a rapidly expanding repertoire of professional skills. 
                         I have developed a proficiency in numerous programming languages including Java, JavaScript, Python and C. Additionally, I have used my 

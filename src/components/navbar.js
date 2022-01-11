@@ -24,17 +24,17 @@ function Navbar() {
                         </Link>
                     </ul>
                 </div>
-                <a class="text-lg font-bold text-black dark:text-white"  href='/#'>Kenneth Rose</a>
+                <a class="text-lg text-black dark:text-white"  href='/#'>Kenneth Rose</a>
             </div>
             <div className='md:flex justify-center hidden'>
                 <Link to="/">
-                    <div className='btn btn-ghost text-black dark:text-white'>Home</div>
+                    <div className='btn btn-ghost text-black dark:text-white text-base font-medium'>Home</div>
                 </Link>
                 <Link to="/projects">
-                    <div className='btn btn-ghost text-black dark:text-white'>Projects</div>
+                    <div className='btn btn-ghost text-black dark:text-white text-base font-medium'>Projects</div>
                 </Link>
                 <Link to="/resume">
-                    <div className='btn btn-ghost text-black dark:text-white'>Resume</div>
+                    <div className='btn btn-ghost text-black dark:text-white text-base font-medium'>Resume</div>
                 </Link>
             </div>
             <div class="flex justify-end flex-1 px-2">

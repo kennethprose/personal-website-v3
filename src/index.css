@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.home {
+  font-family: "Lora", serif;
+}
+
+.project_title {
+  font-family: "Fugaz One", cursive;
+}
+
+.resume_title {
+  font-family: "Lora", serif;
+}
+
+.navbar {
+  font-family: "Roboto Slab", serif;
+}
+
 .visible {
   opacity: 1;
 }

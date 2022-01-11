@@ -8,7 +8,7 @@ function Resume() {
     return (
         <div className='mx-auto min-h-full w-full px-3 mt-14'>
             <div className='flex gap-2 items-center justify-between'>
-                <h1 className='px-2 text-3xl text-primary dark:text-dark_primary'>Resume</h1>
+                <h1 className='px-2 text-3xl text-primary dark:text-dark_primary resume_title'>Resume</h1>
                 <div className='tooltip tooltip-accent dark:tooltip-info tooltip-left' data-tip="View/Download Resume">
                     <div className='btn btn-ghost btn-circle'>
                         <a href={myResume} target="_blank" rel="noreferrer">
@@ -18,7 +18,7 @@ function Resume() {
                 </div>
             </div>
             <div class="divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800"></div>
-            <h1 className='px-2 text-2xl text-center text-primary dark:text-dark_primary my-8'>Education</h1>
+            <h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8 resume_title'>Education</h1>
             <h1 className='px-2 text-xl text-primary dark:text-dark_primary'>B.S. Computer Science, Applied Mathematics and Statistics</h1>
             <h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>
                 <a className='underline decoration-secondary decoration-dotted' href='https://www.stonybrook.edu/' target="_blank" rel="noreferrer">Stony Brook University</a>
@@ -40,7 +40,7 @@ function Resume() {
                 )
             })}
             <br />
-            <h1 className='px-2 text-2xl text-center text-primary dark:text-dark_primary my-8'>Work History</h1>
+            <h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8 resume_title'>Work History</h1>
             <h1 className='px-2 text-xl text-primary dark:text-dark_primary'>Lead IT Technician / Workbench Manager</h1>
             <h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>Stony Brook University Campus Residences</h1>
             <h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>September 2019 - August 2021</h1>
@@ -54,7 +54,7 @@ function Resume() {
             </ul>
             <div className='flex flex-col md:flex-row gap-y-10 mt-12'>
                 <div className='w-full'>
-                    <h1 className='px-2 text-2xl text-center text-primary dark:text-dark_primary'>Technical Skills</h1>
+                    <h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary resume_title'>Technical Skills</h1>
                     <br />
                     {skillData.technical.sort((a, b) => b.percent - a.percent).map((e) => {
                         return (
@@ -66,7 +66,7 @@ function Resume() {
                     })}
                 </div>
                 <div className='w-full'>
-                    <h1 className='px-2 text-2xl text-center text-primary dark:text-dark_primary'>Soft Skills</h1>
+                    <h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary resume_title'>Soft Skills</h1>
                     <br />
                     {skillData.soft.sort((a, b) => b.percent - a.percent).map((e) => {
                         return (
