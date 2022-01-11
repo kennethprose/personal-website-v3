@@ -1,19 +1,22 @@
 {
   "projects": [
     {
-      "name": "Project 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "link": "https://github.com/kennethprose/personal-website-v3"
+      "name": "This Website!",
+      "description": "Learn more about how this website was built and see how it was developed over time. Feedback on the website would be greatly appreciated and can be added as a new discussion. Created with React, React-Router, Javascript, TailwindCSS and DaisyUI.",
+      "link": "https://github.com/kennethprose/personal-website-v3",
+      "img": "/project_img/This_Website.png"
     },
     {
-      "name": "Project 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "link": "https://github.com/kennethprose/personal-website-v3"
+      "name": "Todo Website",
+      "description": "A simple website where you can manage multiple todo lists. Functionality includes, creating and deleting lists, marking tasks as completed, and reordering tasks. Created with React, React-Router, Javascript and CSS.",
+      "link": "https://github.com/kennethprose/todo_hw2",
+      "img": "/project_img/ToDo_Website.png"
     },
     {
-      "name": "Project 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "link": "https://github.com/kennethprose/personal-website-v3"
+      "name": "Set Cover Algorithm",
+      "description": "Code that will calculate the set cover of a set. This NP-complete problem is solved efficiently by backtracking and pruning the data. Written in Java.",
+      "link": "https://github.com/kennethprose/Set_Cover",
+      "img": "/project_img/Set_Cover.png"
     }
   ]
 }
