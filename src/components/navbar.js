@@ -4,7 +4,7 @@ import Dark from './dark';
 
 function Navbar() {
     return (  
-        <div class="navbar mx-3 mb-2 rounded-box bg-foreground dark:bg-dark_foreground md:drop-shadow-md">
+        <div class="navbar mx-3 mb-2 rounded-box bg-foreground dark:bg-dark_foreground md:drop-shadow-md md:border-[1px] border-solid border-black">
             <div class="flex-initial md:flex-1 px-2">
                 <div class="dropdown md:hidden">
                     <div tabindex="0" class="btn btn-ghost rounded-btn text-black dark:text-white">

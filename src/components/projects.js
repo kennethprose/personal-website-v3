@@ -9,7 +9,7 @@ function Projects() {
             <div class="divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800"></div>
             {projectData.projects.map((e) => {
                 return (
-                    <div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg h-fit'>
+                    <div className='project card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg h-fit z-10'>
                         <figure className='self-center'>
                             <img className='md:max-h-80' src={e.img} alt={e.alt} />
                         </figure>

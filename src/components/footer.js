@@ -3,7 +3,7 @@ import { Envelope, Github, Instagram, Linkedin } from 'react-bootstrap-icons'
 
 function Footer() {
     return (
-        <div className='mt-auto h-16 md:h-14 bg-foreground dark:bg-dark_foreground flex justify-center gap-5 items-center'>
+        <div className='mt-auto h-16 md:h-14 bg-foreground dark:bg-dark_foreground flex justify-center gap-5 items-center z-10 border-solid border-[1px] border-secondary'>
             <div className='btn btn-square btn-ghost text-4xl text-primary dark:text-dark_primary'>
                 <a href='mailto:rosekenny12@gmail.com' target="_blank" rel="noreferrer">
                     <Envelope />
