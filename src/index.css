@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	--navbar_bg: black;
-}
-
 body {
 	font-family: 'PT Sans', sans-serif;
 }
@@ -28,37 +24,4 @@ body {
 
 .visible {
 	opacity: 1;
-}
-
-.navbar::before {
-	content: '';
-	position: absolute;
-	border: solid 1px var(--navbar_bg);
-	border-radius: 15px;
-	inset: -0.4rem 0.4rem 0.4rem -0.4rem;
-	clip-path: polygon(
-		0 0,
-		100% 0,
-		100% 0.4rem,
-		0.4rem 0.4rem,
-		0.4rem 100%,
-		0 100%
-	);
-	background: repeating-linear-gradient(
-		45deg,
-		var(--navbar_bg),
-		var(--navbar_bg) 0.1rem,
-		transparent 0,
-		transparent 0.5rem
-	);
-}
-
-body.dark .navbar::before {
-	background: repeating-linear-gradient(
-		45deg,
-		var(--navbar_bg),
-		var(--navbar_bg) 0.1rem,
-		#151e31 0,
-		#151e31 0.5rem
-	);
 }
