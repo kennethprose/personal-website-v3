@@ -5,6 +5,16 @@ import coursesData from '../data/courses.json'
 import skillData from '../data/skills.json'
 
 function Resume() {
+	const progressColor = (percent) => {
+		if (percent >= 75) {
+			return 'progress-success'
+		} else if (percent >= 50) {
+			return 'progress-warning'
+		} else {
+			return 'progress-error'
+		}
+	}
+
 	return (
 		<div className='mx-auto min-h-full w-full px-3 mt-14'>
 			<div className='flex gap-2 items-center justify-between'>
@@ -73,6 +83,31 @@ function Resume() {
 				Work History
 			</h1>
 			<h1 className='px-2 text-xl text-primary dark:text-dark_primary'>
+				IT Specialist
+			</h1>
+			<h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>
+				BOSS Facility Services
+			</h1>
+			<h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>
+				January 2022 - Present
+			</h1>
+			<br />
+			<h1 className='px-2 text-lg text-primary dark:text-dark_primary'>
+				Responsibilities
+			</h1>
+			<ul className='list-disc list-inside pl-3 text-secondary dark:text-dark_secondary opacity-80'>
+				<li>
+					Offer technical support to company staff and troubleshoot
+					computer problems
+				</li>
+				<li>
+					Install, upgrade, and repair desktop computers, laptops,
+					phones, etc.
+				</li>
+			</ul>
+			<br />
+			<br />
+			<h1 className='px-2 text-xl text-primary dark:text-dark_primary'>
 				Lead IT Technician / Workbench Manager
 			</h1>
 			<h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>
@@ -118,7 +153,9 @@ function Resume() {
 										{e.name}
 									</div>
 									<progress
-										className='progress w-3/6 h-full my-auto'
+										className={`progress ${progressColor(
+											e.percent
+										)} w-3/6 h-full my-auto`}
 										value={e.percent}
 										max='100'
 									/>
@@ -140,7 +177,9 @@ function Resume() {
 										{e.name}
 									</div>
 									<progress
-										className='progress w-3/6 h-full my-auto'
+										className={`progress ${progressColor(
+											e.percent
+										)} w-3/6 h-full my-auto`}
 										value={e.percent}
 										max='100'
 									></progress>
