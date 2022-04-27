@@ -31,22 +31,22 @@ function Navbar() {
 					>
 						<Link to='/'>
 							<li>
-								<a href='/#'>Home</a>
+								<a href='/'>Home</a>
 							</li>
 						</Link>
 						<Link to='/projects'>
 							<li>
-								<a href='/#'>Projects</a>
+								<a href='/'>Projects</a>
 							</li>
 						</Link>
 						<Link to='/resume'>
 							<li>
-								<a href='/#'>Resume</a>
+								<a href='/'>Resume</a>
 							</li>
 						</Link>
 					</ul>
 				</div>
-				<a class='text-lg text-black dark:text-white' href='/#'>
+				<a class='text-lg text-black dark:text-white' href='/'>
 					Kenneth Rose
 				</a>
 			</div>
