@@ -13,11 +13,7 @@ function Projects() {
 				return (
 					<div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg h-fit z-10'>
 						<figure className='self-center'>
-							<img
-								className='md:max-h-80'
-								src={e.img}
-								alt={e.alt}
-							/>
+							<img src={e.img} alt={e.alt} />
 						</figure>
 						<div className='card-body'>
 							<h2 className='card-title text-primary dark:text-dark_primary project_title text-xl font-thin'>

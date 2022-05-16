@@ -9,7 +9,7 @@
 		},
 		{
 			"name": "Todo Website",
-			"description": "A simple website where you can manage multiple todo lists. Functionality includes, creating and deleting lists, marking tasks as completed, and reordering tasks. Created with React, React-Router, Javascript and CSS.",
+			"description": "A website where you can manage multiple todo lists. Functionality includes, creating and deleting lists, marking tasks as completed, and reordering tasks. Created with React, React-Router, Javascript and CSS.",
 			"link": "https://github.com/kennethprose/todo_hw2",
 			"img": "/project_img/ToDo_Website.png",
 			"alt": "Screenshot of the todo websites homepage."
