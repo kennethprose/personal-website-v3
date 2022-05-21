@@ -22,7 +22,7 @@ function Resume() {
 					Resume
 				</h1>
 				<div
-					className='tooltip tooltip-accent dark:tooltip-info tooltip-left'
+					className='tooltip tooltip-info tooltip-left'
 					data-tip='View/Download Resume'
 				>
 					<div className='btn btn-ghost btn-circle'>
@@ -48,7 +48,7 @@ function Resume() {
 				>
 					Stony Brook University
 				</a>
-				, 2021
+				, 2022
 			</h1>
 			<h1 className='px-2 text-lg text-primary dark:text-dark_primary mt-6 mb-3'>
 				Notable Courses:
@@ -189,7 +189,7 @@ function Resume() {
 				</div>
 			</div>
 			<div className='flex justify-center my-12'>
-				<div className='btn'>
+				<div className='btn text-white'>
 					<a href={myResume} target='_blank' rel='noreferrer'>
 						View / Download Resume
 					</a>

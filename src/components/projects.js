@@ -11,8 +11,8 @@ function Projects() {
 			<div class='divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800'></div>
 			{projectData.projects.map((e) => {
 				return (
-					<div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg h-fit z-10'>
-						<figure className='self-center'>
+					<div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg z-10'>
+						<figure className='self-center max-w-sm'>
 							<img src={e.img} alt={e.alt} />
 						</figure>
 						<div className='card-body'>
@@ -24,7 +24,7 @@ function Projects() {
 							</p>
 							<div className='card-actions h-full'>
 								<a
-									className='btn self-end'
+									className='btn btn-outline self-end text-black dark:text-white'
 									href={e.link}
 									target='_blank'
 									rel='noreferrer'
