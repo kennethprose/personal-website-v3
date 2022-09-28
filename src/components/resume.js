@@ -138,7 +138,7 @@ function Resume() {
 					documentation.
 				</li>
 			</ul>
-			<div className='flex flex-col md:flex-row gap-y-10 mt-12'>
+			<div className='hidden md:flex md:flex-row md:gap-y-10 md:mt-12'>
 				<div className='w-full'>
 					<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary resume_title'>
 						Technical Skills
