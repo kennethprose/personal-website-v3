@@ -14,7 +14,7 @@ function Projects() {
 					<div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg z-10'>
 						<figure className='self-center'>
 							<img
-								className='md:max-h-80'
+								className='md:max-h-96'
 								src={e.img}
 								alt={e.alt}
 							/>
