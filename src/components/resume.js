@@ -2,19 +2,8 @@ import React from 'react'
 import { Download } from 'react-bootstrap-icons'
 import myResume from '../docs/Kenneth_Rose_Resume.pdf'
 import coursesData from '../data/courses.json'
-import skillData from '../data/skills.json'
 
 function Resume() {
-	const progressColor = (percent) => {
-		if (percent >= 75) {
-			return 'progress-success'
-		} else if (percent >= 50) {
-			return 'progress-warning'
-		} else {
-			return 'progress-error'
-		}
-	}
-
 	return (
 		<div className='mx-auto min-h-full w-full px-3 mt-14'>
 			<div className='flex gap-2 items-center justify-between'>
@@ -138,56 +127,6 @@ function Resume() {
 					documentation.
 				</li>
 			</ul>
-			<div className='hidden md:flex md:flex-row md:gap-y-10 md:mt-12'>
-				<div className='w-full'>
-					<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary resume_title'>
-						Technical Skills
-					</h1>
-					<br />
-					{skillData.technical
-						.sort((a, b) => b.percent - a.percent)
-						.map((e) => {
-							return (
-								<div className='flex justify-between gap-4 w-5/6 mx-auto my-1'>
-									<div className='grow text-center text-lg text-secondary dark:text-dark_secondary'>
-										{e.name}
-									</div>
-									<progress
-										className={`progress ${progressColor(
-											e.percent
-										)} w-3/6 h-full my-auto`}
-										value={e.percent}
-										max='100'
-									/>
-								</div>
-							)
-						})}
-				</div>
-				<div className='w-full'>
-					<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary resume_title'>
-						Soft Skills
-					</h1>
-					<br />
-					{skillData.soft
-						.sort((a, b) => b.percent - a.percent)
-						.map((e) => {
-							return (
-								<div className='flex justify-between gap-4 w-5/6 mx-auto my-1'>
-									<div className='grow text-center text-lg text-secondary dark:text-dark_secondary'>
-										{e.name}
-									</div>
-									<progress
-										className={`progress ${progressColor(
-											e.percent
-										)} w-3/6 h-full my-auto`}
-										value={e.percent}
-										max='100'
-									></progress>
-								</div>
-							)
-						})}
-				</div>
-			</div>
 			<div className='flex justify-center my-12'>
 				<div className='btn text-white'>
 					<a href={myResume} target='_blank' rel='noreferrer'>
