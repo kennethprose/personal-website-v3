@@ -12,7 +12,7 @@ function Projects() {
 			{projectData.projects.map((e) => {
 				return (
 					<div className='card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg z-10'>
-						<figure className='self-center'>
+						<figure className='self-center md:min-w-fit'>
 							<img
 								className='md:max-h-96'
 								src={e.img}
@@ -20,15 +20,15 @@ function Projects() {
 							/>
 						</figure>
 						<div className='card-body'>
-							<h2 className='card-title text-primary dark:text-dark_primary project_title text-xl font-thin'>
+							<h2 className='card-title text-primary dark:text-dark_accent project_title text-xl font-thin'>
 								{e.name}
 							</h2>
 							<p className='text-secondary dark:text-dark_secondary text-lg'>
 								{e.description}
 							</p>
-							<div className='card-actions h-full'>
+							<div className='card-actions h-full pt-10'>
 								<a
-									className='btn btn-outline self-end text-black dark:text-white'
+									className='btn btn-outline self-end text-black dark:text-white hover:bg-transparent'
 									href={e.link}
 									target='_blank'
 									rel='noreferrer'

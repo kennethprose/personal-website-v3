@@ -85,14 +85,12 @@ function Resume() {
 				Responsibilities
 			</h1>
 			<ul className='list-disc list-inside pl-3 text-secondary dark:text-dark_secondary opacity-80'>
+				<li>Develop software to streamline company processes</li>
 				<li>
-					Offer technical support to company staff and troubleshoot
-					computer problems
+					Completed a successful migration of 80 users and 3 servers
+					to Azure
 				</li>
-				<li>
-					Install, upgrade, and repair desktop computers, laptops,
-					phones, etc.
-				</li>
+				<li>Manage O365, Exchange, MDM, etc.</li>
 			</ul>
 			<br />
 			<br />
@@ -111,20 +109,13 @@ function Resume() {
 			</h1>
 			<ul className='list-disc list-inside pl-3 text-secondary dark:text-dark_secondary opacity-80'>
 				<li>
-					Assist staff and students via telephone, email, help desk
-					tickets, in-person visits, and remote access.
-				</li>
-				<li>
-					Install, upgrade, troubleshoot and repair desktop computers,
-					laptops, phones, IoT devices, etc.
-				</li>
-				<li>
 					Managed team performance by training, motivating, and
 					directing 20 employees.
 				</li>
 				<li>
-					Document newly formed procedures and update existing
-					documentation.
+					Assist a campus of 26,000 staff and students via telephone,
+					email, help desk tickets, in-person visits, and remote
+					access.
 				</li>
 			</ul>
 			<div className='flex justify-center my-12'>
