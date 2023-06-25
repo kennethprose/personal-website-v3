@@ -25,3 +25,12 @@ body {
 .visible {
 	opacity: 1;
 }
+
+.unloaded {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.loaded {
+	opacity: 1;
+}
