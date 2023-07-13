@@ -118,6 +118,19 @@ function Resume() {
 					access.
 				</li>
 			</ul>
+			<br />
+			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8 resume_title'>
+				Awards
+			</h1>
+			<h1 className='px-2 text-xl text-primary dark:text-dark_primary'>
+				Eagle Scout
+			</h1>
+			<h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>
+				Boy Scouts of America
+			</h1>
+			<h1 className='px-2 text-lg text-secondary dark:text-dark_secondary opacity-80'>
+				December 2017
+			</h1>
 			<div className='flex justify-center my-12'>
 				<div className='btn text-white'>
 					<a href={myResume} target='_blank' rel='noreferrer'>

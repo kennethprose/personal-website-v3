@@ -1,29 +1,10 @@
 import React, { useState } from 'react'
-import eagle_pic from '../img/eagle.jpg'
 import throne_pic from '../img/throne.jpg'
 var ReactRotatingText = require('react-rotating-text')
 
 function Home() {
-	const [xEagle, setXEagle] = useState(0)
-	const [yEagle, setYEagle] = useState(0)
-
 	const [xThrone, setXThrone] = useState(0)
 	const [yThrone, setYThrone] = useState(0)
-
-	function showEagle(e) {
-		document.getElementById('eagle_img').classList.add('visible')
-		setXEagle(
-			e.clientY -
-				document.getElementById('eagle_img').height -
-				20 +
-				window.pageYOffset
-		)
-		setYEagle(e.clientX - 100)
-	}
-
-	function hideEagle(e) {
-		document.getElementById('eagle_img').classList.remove('visible')
-	}
 
 	function showThrone(e) {
 		document.getElementById('throne_img').classList.add('visible')
@@ -67,9 +48,9 @@ function Home() {
 						I am a driven and solution-oriented Computer Scientist
 						and Mathematician with a rapidly expanding repertoire of
 						professional skills. I have developed a proficiency in
-						numerous programming languages including Java,
-						JavaScript, Python and C. Additionally, I have used my
-						experience as an
+						numerous programming languages including Python, Java,
+						and JavaScript. Additionally, I have used my experience
+						as an
 						<span
 							className='text-accent cursor-pointer dark:text-dark_accent'
 							onMouseEnter={showThrone}
@@ -80,32 +61,13 @@ function Home() {
 							Lead IT Technician{' '}
 						</span>
 						to develop strong communication, teamwork, and customer
-						service skills. In my free time, I volunteer as an
-						Assistant Scout Master for Troop 261, my local Boy Scout
-						troop, where I achieved the rank of
-						<span
-							className='text-accent cursor-pointer dark:text-dark_accent'
-							onMouseEnter={showEagle}
-							onMouseMove={showEagle}
-							onMouseLeave={hideEagle}
-						>
-							{' '}
-							Eagle Scout
-						</span>
-						. I am excited and prepared to enter the industry and
-						get hands-on experience in programming, information
-						security, and networking.
+						service skills. I am excited and prepared to enter the
+						industry and get hands-on experience in programming,
+						information security, and networking.
 					</h4>
 					<br />
 				</div>
 			</div>
-			<img
-				id='eagle_img'
-				className='absolute border-2 border-black rounded-2xl h-[200px] w-auto opacity-0 transition-opacity duration-500 pointer-events-none'
-				src={eagle_pic}
-				alt='Eagle Scout Uniform'
-				style={{ top: xEagle, left: yEagle }}
-			/>
 			<img
 				id='throne_img'
 				className='absolute border-2 border-black rounded-2xl h-[260px] w-auto opacity-0 transition-opacity duration-500 pointer-events-none'
