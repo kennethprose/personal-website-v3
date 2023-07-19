@@ -29,21 +29,16 @@ function Navbar() {
 						tabindex='0'
 						class='p-2 shadow menu dropdown-content text-primary dark:text-dark_primary bg-foreground dark:bg-dark_foreground rounded-box w-52'
 					>
-						<Link to='/'>
-							<li>
-								<a href='/'>Home</a>
-							</li>
-						</Link>
-						<Link to='/projects'>
-							<li>
-								<a href='/'>Projects</a>
-							</li>
-						</Link>
-						<Link to='/resume'>
-							<li>
-								<a href='/'>Resume</a>
-							</li>
-						</Link>
+						<li>
+							<a href='/'>Home</a>
+						</li>
+
+						<li>
+							<a href='/projects'>Projects</a>
+						</li>
+						<li>
+							<a href='/resume'>Resume</a>
+						</li>
 					</ul>
 				</div>
 				<a class='text-lg text-black dark:text-white' href='/'>
