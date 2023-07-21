@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .home {
-	font-family: 'Lora', serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .project_title {
-	font-family: 'Fugaz One', cursive;
+	font-family: 'Cabin Sketch', cursive;
 }
 
-.resume_title {
-	font-family: 'Lora', serif;
+.resume {
+	font-family: 'Roboto Slab', serif;
 }
 
 .navbar {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .visible {

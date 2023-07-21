@@ -33,9 +33,8 @@ function Home() {
 						<ReactRotatingText
 							items={[
 								'education.',
-								'past projects.',
+								'projects.',
 								'work experience.',
-								'contact info.',
 							]}
 							pause={1000}
 						/>
@@ -45,12 +44,11 @@ function Home() {
 						First, let me tell you a little about myself...
 					</h2>
 					<h4 className='text-xl text-secondary dark:text-dark_secondary leading-[140%]'>
-						I am a driven and solution-oriented Computer Scientist
-						and Mathematician with a rapidly expanding repertoire of
-						professional skills. I have developed a proficiency in
-						numerous programming languages including Python, Java,
-						and JavaScript. Additionally, I have used my experience
-						as an
+						I am a driven and solution-oriented developer with a
+						rapidly expanding repertoire of professional skills. I
+						have developed a proficiency in numerous programming
+						languages including Python, Java, and JavaScript.
+						Additionally, I have used my experience as an
 						<span
 							className='text-accent cursor-pointer dark:text-dark_accent'
 							onMouseEnter={showThrone}
@@ -62,8 +60,7 @@ function Home() {
 						</span>
 						to develop strong communication, teamwork, and customer
 						service skills. I am excited and prepared to enter the
-						industry and get hands-on experience in programming,
-						information security, and networking.
+						industry and get some hands-on experience.
 					</h4>
 					<br />
 				</div>

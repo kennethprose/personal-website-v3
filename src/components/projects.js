@@ -22,7 +22,7 @@ function Projects() {
 
 	return (
 		<div className='mx-auto min-h-full w-full px-3 mt-14'>
-			<h1 className='px-2 text-3xl text-primary dark:text-dark_primary resume_title'>
+			<h1 className='px-2 text-5xl text-primary dark:text-dark_primary project_title'>
 				Projects
 			</h1>
 			<div class='divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800'></div>
@@ -37,7 +37,7 @@ function Projects() {
 							/>
 						</figure>
 						<div className='card-body'>
-							<h2 className='card-title text-primary dark:text-dark_accent project_title text-xl font-thin'>
+							<h2 className='card-title text-primary dark:text-dark_accent project_title text-3xl font-thin'>
 								{e.name}
 							</h2>
 							<p className='text-secondary dark:text-dark_secondary text-lg'>

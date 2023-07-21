@@ -5,9 +5,9 @@ import coursesData from '../data/courses.json'
 
 function Resume() {
 	return (
-		<div className='mx-auto min-h-full w-full px-3 mt-14'>
+		<div className='mx-auto min-h-full w-full px-3 mt-14 resume'>
 			<div className='flex gap-2 items-center justify-between'>
-				<h1 className='px-2 text-3xl text-primary dark:text-dark_primary resume_title'>
+				<h1 className='px-2 text-4xl text-primary dark:text-dark_primary'>
 					Resume
 				</h1>
 				<div
@@ -22,7 +22,7 @@ function Resume() {
 				</div>
 			</div>
 			<div class='divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800'></div>
-			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8 resume_title'>
+			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8'>
 				Education
 			</h1>
 			<h1 className='px-2 text-xl text-primary dark:text-dark_primary'>
@@ -68,7 +68,7 @@ function Resume() {
 				)
 			})}
 			<br />
-			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8 resume_title'>
+			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8'>
 				Work History
 			</h1>
 			<h1 className='px-2 text-xl text-primary dark:text-dark_primary'>
@@ -119,7 +119,7 @@ function Resume() {
 				</li>
 			</ul>
 			<br />
-			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8 resume_title'>
+			<h1 className='px-2 text-3xl text-center text-primary dark:text-dark_primary my-8'>
 				Awards
 			</h1>
 			<h1 className='px-2 text-xl text-primary dark:text-dark_primary'>
