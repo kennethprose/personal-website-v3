@@ -1,5 +1,5 @@
 import React from "react";
-import { Envelope, Github, Instagram, Linkedin } from "react-bootstrap-icons";
+import { Envelope, Github, Linkedin } from "react-bootstrap-icons";
 
 function Footer() {
 	return (
