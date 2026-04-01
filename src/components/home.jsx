@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import ReactRotatingText from "react-rotating-text";
 import throne_pic from "../img/throne.jpg";
-var ReactRotatingText = require("react-rotating-text");
 
 function Home() {
 	const [xThrone, setXThrone] = useState(0);
