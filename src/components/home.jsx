@@ -40,13 +40,10 @@ function Home() {
             First, let me tell you a little about myself...
           </h2>
           <h4 className="text-xl text-secondary dark:text-dark_secondary leading-[140%]">
-            I am a driven and solution-oriented developer and IT professional
-            with a rapidly expanding repertoire of skills. The combination of my
-            Computer Science degree and my self-taught IT skills, which have
-            blossomed into a successful career in IT, have developed me into a
-            well-rounded individual in all things tech. I have developed a
-            proficiency in numerous programming languages including Python and
-            JavaScript. Additionally, I have used my experience as an
+            I'm a developer and IT professional who enjoys tinkering around in
+            all things tech. I have a background in Computer Science along with
+            a lot of hands-on, self-taught experience that's grown into a career
+            as an
             <span
               className="text-accent cursor-pointer dark:text-dark_accent"
               onMouseEnter={showThrone}
@@ -54,10 +51,10 @@ function Home() {
               onMouseLeave={hideThrone}
             >
               {" "}
-              Lead IT Technician{" "}
+              IT Specialist{". "}
             </span>
-            to develop strong communication, teamwork, and customer service
-            skills.
+            Outside of work, I like to mess around with my homelab, create
+            automations, and experiment with open source software.
           </h4>
         </div>
       </div>

@@ -3,34 +3,34 @@
 @tailwind utilities;
 
 body {
-	font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .home {
-	font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .project_title {
-	font-family: 'Cabin Sketch', cursive;
+  font-family: "Quicksand", sans-serif;
 }
 
 .resume {
-	font-family: 'Roboto Slab', serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .navbar {
-	font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .visible {
-	opacity: 1;
+  opacity: 1;
 }
 
 .unloaded {
-	opacity: 0;
-	transition: opacity 1s;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .loaded {
-	opacity: 1;
+  opacity: 1;
 }

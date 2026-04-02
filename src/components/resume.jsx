@@ -10,7 +10,7 @@ function Resume() {
         <h1 className="px-2 text-4xl text-primary dark:text-dark_primary">
           Resume
         </h1>
-        <div
+        {/* <div
           className="tooltip tooltip-info tooltip-left"
           data-tip="View/Download Resume"
         >
@@ -19,7 +19,7 @@ function Resume() {
               <Download className="text-2xl text-primary dark:text-dark_primary" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div class="divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800"></div>
 
@@ -157,11 +157,11 @@ function Resume() {
         December 2017
       </h1>
       <div className="flex justify-center my-12">
-        <div className="btn text-white">
+        {/* <div className="btn text-white">
           <a href={myResume} target="_blank" rel="noreferrer">
             View / Download Resume
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
