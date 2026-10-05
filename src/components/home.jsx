@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactRotatingText from "react-rotating-text";
-import throne_pic from "../img/throne.jpg";
+import throne_pic from "../img/throne.webp";
 
 function Home() {
   const [xThrone, setXThrone] = useState(0);
@@ -10,9 +10,9 @@ function Home() {
     document.getElementById("throne_img").classList.add("visible");
     setXThrone(
       e.clientY -
-        document.getElementById("throne_img").height -
-        20 +
-        window.pageYOffset,
+      document.getElementById("throne_img").height -
+      20 +
+      window.pageYOffset,
     );
     setYThrone(e.clientX - 90);
   }
