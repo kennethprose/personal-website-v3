@@ -39,6 +39,9 @@ function Navbar() {
 						<li>
 							<a href='/resume'>Resume</a>
 						</li>
+						<li>
+							<Link to='/blog'>Blog</Link>
+						</li>
 					</ul>
 				</div>
 				<a class='text-lg text-black dark:text-white' href='/'>
@@ -59,6 +62,11 @@ function Navbar() {
 				<Link to='/resume'>
 					<div className='btn btn-ghost text-black dark:text-white text-base font-medium'>
 						Resume
+					</div>
+				</Link>
+				<Link to='/blog'>
+					<div className='btn btn-ghost text-black dark:text-white text-base font-medium'>
+						Blog
 					</div>
 				</Link>
 			</div>

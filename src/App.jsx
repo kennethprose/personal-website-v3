@@ -6,12 +6,13 @@ import Home from './components/home'
 import Projects from './components/projects'
 import Resume from './components/resume'
 import Footer from './components/footer'
+import Blog, { BlogPost } from './components/blog'
 
 function App() {
 	return (
 		<div className='bg-background dark:bg-dark_background'>
 			<div className='flex flex-col min-h-screen'>
-				<div className='max-w-screen-lg mx-auto'>
+				<div className='w-full max-w-screen-lg mx-auto'>
 					<BrowserRouter>
 						<br />
 						<Navbar />
@@ -19,6 +20,8 @@ function App() {
 							<Route path='/' exact element={<Home />} />
 							<Route path='/projects' element={<Projects />} />
 							<Route path='/resume' element={<Resume />} />
+							<Route path='/blog' element={<Blog />} />
+							<Route path='/blog/:slug' element={<BlogPost />} />
 						</Routes>
 					</BrowserRouter>
 				</div>
