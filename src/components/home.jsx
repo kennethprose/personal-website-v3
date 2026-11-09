@@ -1,26 +1,51 @@
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import ReactRotatingText from "react-rotating-text";
 import throne_pic from "../img/throne.webp";
 
 function Home() {
-  const [xThrone, setXThrone] = useState(0);
-  const [yThrone, setYThrone] = useState(0);
+  const throneRef = useRef(null);
+  const pointerRef = useRef(null);
+  const [throne, setThrone] = useState({ top: 0, left: 0, visible: false });
+
+  function positionThrone() {
+    const image = throneRef.current;
+    const pointer = pointerRef.current;
+    if (!pointer || !image?.complete || !image.naturalWidth) return;
+
+    const margin = 12;
+    const gap = 20;
+    const { width, height } = image.getBoundingClientRect();
+    const viewportWidth = document.documentElement.clientWidth;
+    const viewportHeight = document.documentElement.clientHeight;
+    const above = pointer.y - height - gap;
+    const preferredTop = above >= margin ? above : pointer.y + gap;
+
+    setThrone({
+      left: Math.max(margin, Math.min(pointer.x - width / 2, viewportWidth - width - margin)),
+      top: Math.max(margin, Math.min(preferredTop, viewportHeight - height - margin)),
+      visible: true,
+    });
+  }
 
   function showThrone(e) {
-    document.getElementById("throne_img").classList.add("visible");
-    setXThrone(
-      e.clientY -
-      document.getElementById("throne_img").height -
-      20 +
-      window.pageYOffset,
-    );
-    setYThrone(e.clientX - 90);
+    pointerRef.current = { x: e.clientX, y: e.clientY };
+    positionThrone();
   }
 
-  function hideThrone(e) {
-    document.getElementById("throne_img").classList.remove("visible");
-  }
+  const hideThrone = useCallback(() => {
+    pointerRef.current = null;
+    setThrone((current) => ({ ...current, visible: false }));
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("resize", hideThrone);
+    window.addEventListener("scroll", hideThrone, true);
+    return () => {
+      window.removeEventListener("resize", hideThrone);
+      window.removeEventListener("scroll", hideThrone, true);
+    };
+  }, [hideThrone]);
 
   return (
     <div>
@@ -83,11 +108,13 @@ function Home() {
         </div>
       </div>
       <img
+        ref={throneRef}
         id="throne_img"
-        className="absolute border-2 border-black rounded-2xl h-[260px] w-auto opacity-0 transition-opacity duration-500 pointer-events-none"
+        className={`fixed z-50 border-2 border-black rounded-2xl h-auto w-auto max-h-[min(260px,calc(100dvh-24px))] max-w-[calc(100vw-24px)] transition-opacity duration-500 pointer-events-none ${throne.visible ? "opacity-100" : "opacity-0"}`}
         src={throne_pic}
         alt="Sitting on my IT throne"
-        style={{ top: xThrone, left: yThrone }}
+        onLoad={positionThrone}
+        style={{ top: throne.top, left: throne.left }}
       />
     </div>
   );
