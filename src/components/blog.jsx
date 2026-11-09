@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { posts } from '../posts/posts'
 
-const pageStyle = 'mx-auto min-h-full w-full px-3 mt-14 mb-14'
+const pageStyle = 'mx-auto min-h-full w-full px-3 mt-8 sm:mt-14 mb-14'
 const headingStyle = 'text-4xl text-primary dark:text-dark_primary'
 const linkStyle = 'text-accent dark:text-dark_accent underline underline-offset-4'
 

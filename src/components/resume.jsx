@@ -5,7 +5,7 @@ import coursesData from "../data/courses.json";
 
 function Resume() {
   return (
-    <div className="mx-auto min-h-full w-full px-3 mt-14 resume">
+    <div className="mx-auto min-h-full w-full px-3 mt-8 sm:mt-14 resume">
       <div className="flex gap-2 items-center justify-between">
         <h1 className="px-2 text-4xl text-primary dark:text-dark_primary">
           Resume

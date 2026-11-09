@@ -3,7 +3,7 @@ import projectData from "../data/projects.json";
 
 function Projects() {
   return (
-    <div className="mx-auto min-h-full w-full px-3 mt-14">
+    <div className="mx-auto min-h-full w-full px-3 mt-8 sm:mt-14">
       <h1 className="px-2 text-4xl text-primary dark:text-dark_primary project_title">
         Projects
       </h1>
@@ -11,8 +11,12 @@ function Projects() {
       {projectData.projects.map((e) => {
         return (
           <div className="card md:card-side bg-foreground dark:bg-dark_foreground mt-10 md:drop-shadow-lg z-10">
-            <figure className="md:pl-5">
-              <img src={e.img} alt={e.alt} />
+            <figure className="max-md:pt-5 md:pl-5">
+              <img
+                className="max-md:h-auto max-md:w-3/4 max-md:max-w-[200px]"
+                src={e.img}
+                alt={e.alt}
+              />
             </figure>
             <div className="card-body md:w-[125%]">
               <h2 className="card-title text-primary dark:text-dark_accent project_title text-3xl font-thin">

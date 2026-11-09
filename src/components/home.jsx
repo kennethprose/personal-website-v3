@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import ReactRotatingText from "react-rotating-text";
 import throne_pic from "../img/throne.webp";
 
@@ -25,7 +26,7 @@ function Home() {
     <div>
       <div className="mx-auto min-h-full w-11/12 md:w-9/12">
         <div className="w-full">
-          <h1 className="mt-14 text-5xl text-primary dark:text-dark_primary home">
+          <h1 className="mt-8 sm:mt-14 text-5xl text-primary dark:text-dark_primary home">
             Hello!
           </h1>
           <h3 className="my-5 text-xl text-secondary dark:text-dark_secondary h-8">
@@ -56,6 +57,20 @@ function Home() {
             Outside of work, I like to mess around with my homelab, create
             automations, and experiment with open source software.
           </h4>
+          <div className="my-8 flex flex-col items-start sm:flex-row sm:items-center sm:gap-10">
+            <Link
+              to="/projects"
+              className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-lg py-3 text-lg font-medium text-secondary decoration-transparent underline-offset-4 transition-colors hover:text-primary hover:decoration-current focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary dark:text-dark_secondary dark:hover:text-dark_primary dark:focus-visible:outline-dark_accent"
+            >
+              Explore my projects <span aria-hidden="true">→</span>
+            </Link>
+            <Link
+              to="/resume"
+              className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-lg py-3 text-lg font-medium text-secondary decoration-transparent underline-offset-4 transition-colors hover:text-primary hover:decoration-current focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary dark:text-dark_secondary dark:hover:text-dark_primary dark:focus-visible:outline-dark_accent"
+            >
+              View my resume <span aria-hidden="true">→</span>
+            </Link>
+          </div>
         </div>
       </div>
       <img
