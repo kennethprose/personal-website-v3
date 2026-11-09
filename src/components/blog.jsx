@@ -19,7 +19,12 @@ function PublishedDate({ date }) {
 export default function Blog() {
   return (
     <main className={pageStyle}>
-      <h1 className={`px-2 ${headingStyle}`}>Blog</h1>
+      <h1 className={`px-2 ${headingStyle}`}>
+        <span aria-hidden='true' className='text-accent dark:text-dark_accent'>
+          &gt;
+        </span>{' '}
+        Blog
+      </h1>
       <div className='divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800' />
       {posts.length ? (
         <ul className='space-y-6'>

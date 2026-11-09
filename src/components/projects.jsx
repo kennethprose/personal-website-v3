@@ -5,6 +5,9 @@ function Projects() {
   return (
     <div className="mx-auto min-h-full w-full px-3 mt-8 sm:mt-14">
       <h1 className="px-2 text-4xl text-primary dark:text-dark_primary project_title">
+        <span aria-hidden="true" className="text-accent dark:text-dark_accent">
+          &gt;
+        </span>{" "}
         Projects
       </h1>
       <div class="divider before:bg-slate-200 after:bg-slate-200 dark:before:bg-slate-800 dark:after:bg-slate-800"></div>
@@ -33,7 +36,7 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <Github className="text-xl" />
-                  &nbsp;Source
+                  &nbsp;view source
                 </a>
               </div>
             </div>

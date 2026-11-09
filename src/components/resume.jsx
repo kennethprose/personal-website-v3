@@ -8,6 +8,9 @@ function Resume() {
     <div className="mx-auto min-h-full w-full px-3 mt-8 sm:mt-14 resume">
       <div className="flex gap-2 items-center justify-between">
         <h1 className="px-2 text-4xl text-primary dark:text-dark_primary">
+          <span aria-hidden="true" className="text-accent dark:text-dark_accent">
+            &gt;
+          </span>{" "}
           Resume
         </h1>
         {/* <div
