@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "name": "Skim Bot",
+      "description": "SkimBot is a self-hosted Discord bot, powered by AI, that helps you catch up on conversations by summarizing messages and image attachments",
+      "link": "https://github.com/kennethprose/skimbot",
+      "img": "/project_img/skimbot.webp",
+      "alt": "SkimBot logo."
+    },
+    {
       "name": "Minecraft Mod Manager",
       "description": "Inspired by package managers like apt and npm, Minecraft Mod Manager is a tool to download, update, and manage mods for your Minecraft server using the Modrinth and CursgeForge APIs.",
       "link": "https://github.com/kennethprose/MinecraftModManager",
