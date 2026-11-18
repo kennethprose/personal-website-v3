@@ -20,13 +20,6 @@
       "link": "https://github.com/kennethprose/YouTube-Scroll-To-Watched",
       "img": "/project_img/ytscroll.webp",
       "alt": "YouTube Scroll To Watched logo."
-    },
-    {
-      "name": "Foptimum",
-      "description": "Foptimum is a lightweight, dockerized app to monitor your internet speed and uptime so you can keep your ISP accountable. Foptimum exports its data to Prometheus so it can easily be visualized with a tool like Grafana. Currently has 6200+ pulls from Dockerhub and is listed on the unRAID app store.",
-      "link": "https://github.com/kennethprose/Foptimum",
-      "img": "/project_img/Foptimum.webp",
-      "alt": "Foptimum logo."
     }
   ]
 }
